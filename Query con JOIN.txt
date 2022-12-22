@@ -1,0 +1,29 @@
+1)SELECT * 
+FROM `students` 
+INNER JOIN degrees
+ON degrees.id = 53;
+
+2)SELECT * 
+FROM `degrees` 
+INNER JOIN departments
+ON departments.id = 7;
+
+3)SELECT * 
+FROM `courses` 
+INNER JOIN course_teacher
+ON course_teacher.teacher_id = 44;
+
+4)SELECT * 
+FROM `students` 
+INNER JOIN degrees
+ON degrees.id
+ORDER BY students.name, students.surname ASC;
+
+5)SELECT * 
+FROM `courses` 
+INNER JOIN teachers
+ON teachers.id;
+
+6)
+
+7)
